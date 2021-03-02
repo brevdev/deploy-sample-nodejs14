@@ -1,0 +1,6 @@
+version: '2021.03.1'
+services:
+  - name: 'hello-brev'
+    runtime: 'nodejs14'
+    handler: 'index.handler'
+    type: 'http'
