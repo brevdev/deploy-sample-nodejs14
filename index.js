@@ -1,3 +1,5 @@
+messager = require('./messager/messager.js');
+
 module.exports.handler = (request) => {
-  return 'Hello from NodeJS!';
+  return messager.get();
 }
